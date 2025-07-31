@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flipkart Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <h1>Flipkart</h1>
+    <button onclick="logout()">Logout</button>
+  </div>
+  <div class="category-bar">
+    <button onclick="showCategory('mobiles')">Mobiles</button>
+    <button onclick="showCategory('kitchen')">Kitchen</button>
+    <button onclick="showCategory('fashion')">Fashion</button>
+    <button onclick="showCategory('books')">Books</button>
+  </div>
+  <div id="product-container"></div>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
